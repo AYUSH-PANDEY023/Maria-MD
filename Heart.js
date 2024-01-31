@@ -38,22 +38,22 @@ const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
         const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
         const time2 = moment().tz('Asia/Kolkata').format('HH:mm:ss')  
          if(time2 < "23:59:00"){
-var Ayushytimewisher = `Good Night 🌌`
+var Ayushytimewisher = `Konbawa 🌌`
  }
  if(time2 < "19:00:00"){
-var Ayushytimewisher = `Good Evening 🌃`
+var Ayushytimewisher = `Oyasuminasai🌃`
  }
  if(time2 < "18:00:00"){
-var Ayushytimewisher = `Good Evening 🌃`
+var Ayushytimewisher = `Oyasuminasai 🌃`
  }
  if(time2 < "15:00:00"){
-var Ayushytimewisher = `Good Afternoon 🌅`
+var Ayushytimewisher = `Konnichiwa 🌅`
  }
  if(time2 < "11:00:00"){
-var Ayushytimewisher = `Good Morning 🌄`
+var Ayushytimewisher = `Ohayo Gozaimasu🌄`
  }
  if(time2 < "05:00:00"){
-var Ayushytimewisher = `Good Morning 🌄`
+var Ayushytimewisher = `Ohayo Gozaimasu🌄`
  } 
 module.exports = Maria = async (Maria, m, msg, chatUpdate, store) => {
     try {
@@ -141,8 +141,7 @@ const getRandomImage = (directory) => {
     return null;
   }
 };
-
-const imageDirectory = './Gallery/Theme-logo';
+const imageDirectory = './Gallery/audio';
   const randomImage = getRandomImage(imageDirectory);
 
 //group chat msg by Ayush
@@ -1133,7 +1132,7 @@ break
                 if (isAfkOn) return reply("Already afk")
                 let reason = text ? text : 'Nothing.'
                 afk.addAfkUser(m.sender, Date.now(), reason, _afk)
-                reply(`@${m.sender.split('@')[0]} Currently AFK\nWith reason : ${reason}`)
+                reply(`@${m.sender.split('@')[0]} Currently AFK\nWith alasan : ${reason}`)
                 break
       case 'qc': {
                 const {
@@ -1564,145 +1563,259 @@ case 'truth':
                            buffer = await getBuffer(`https://graph.org/file/8dd92e67cd4019b092f53.jpg`)
                            Maria.sendMessage(from, { image: buffer, caption: '*You have chosen Truth*\n'+ Mariatruthww }, {quoted:m})
                            break
+case 'cekmemek':
+case 'memek':
+if (!q) return reply(`Penggunaan ${command} Nama\n\nContoh : ${command} Bella`)
+const memek = ['hitam', 'pink', 'tembem', 'sempit', 'black doff', 'berjerawat', 'bau amis', 'bau karbit', 'bau bensin' ]
+const pepek = memek[Math.floor(Math.random() * memek.length)]
+Maria.sendMessage(from, { text: `*CEK MEMEK*\nNama : ${q}\nJenis Memek: *${pepek}*` }, { quoted:m})
+
+break
+case 'pintercek':
+case 'cekpinter':
+case 'cekgoblok':
+case 'goblokcek':
+case 'cantikcek':
+case 'cekcantik':
+if (!q) return reply(`Penggunaan ${command} Nama\n\nContoh : ${command} Riych`)
+const can = ['5', '99999', '15' ,'20', '25','30','35','40','45','50','55','60','65','70','75','80','85','90','100']
+const tik = can[Math.floor(Math.random() * can.length)]
+Maria.sendMessage(from, { text: `Nama : ${q}\nJawaban : *${tik}%*` }, { quoted:m})
+
+break
+case 'sangecek':
+case 'ceksange':
+case 'gaycek':
+case 'cekgay':
+case 'lesbicek':
+case 'ceklesbi':
+if (!q) return reply(`Penggunaan ${command} Nama\n\nContoh : ${command} ${pushname}`)
+const sangeh = ['5', '10', '15','20', '25','30','35','40','45','50','55','60','65','70','75','80','85','90','100', '9999999']
+const sange = sangeh[Math.floor(Math.random() * sangeh.length)]
+Maria.sendMessage(from, { text: `Nama : ${q}\nJawaban : *${sange}%*` }, { quoted:m})
+
+break
+case 'wangy':
+if (!q) return reply (`Contoh : .wangy Bagus`)
+qq = q.toUpperCase()
+awikwok = `${qq} ${qq} ${qq}    WANGY WANGY WANGY WANGY HU HA HU HA HU HA, aaaah baunya rambut ${qq} wangyy aku mau nyiumin aroma wangynya ${qq} AAAAAAAAH ~ Rambutnya.... aaah rambutnya juga pengen aku elus-elus ~~ AAAAAH ${qq} keluar pertama kali di anime juga manis    banget AAAAAAAAH ${qq} AAAAA LUCCUUUUUUUUUUUUUUU............ ${qq} AAAAAAAAAAAAAAAAAAAAGH   apa ? ${qq} itu gak nyata ? Cuma HALU katamu ? nggak, ngak ngak ngak ngak NGAAAAAAAAK GUA GAK PERCAYA ITU DIA NYATA NGAAAAAAAAAAAAAAAAAK PEDULI BANGSAAAAAT !! GUA GAK PEDULI SAMA KENYATAAN POKOKNYA GAK PEDULI.    ${qq} gw ... ${qq} di laptop ngeliatin gw, ${qq} .. kamu percaya sama aku ? aaaaaaaaaaah syukur ${q} aku gak mau merelakan ${qq} aaaaaah    YEAAAAAAAAAAAH GUA MASIH PUNYA ${qq} SENDIRI PUN NGGAK SAMA AAAAAAAAAAAAAAH`
+ reply(awikwok)
+break
+         case 'sound71':
+         case 'sound72':
+         case 'sound73':
+         case 'sound74':
+         case 'sound75':
+         case 'sound1':
+         case 'sound2':
+         case 'sound3':
+         case 'sound4':
+         case 'sound5':
+         case 'sound6':
+         case 'sound7':
+         case 'sound8':
+         case 'sound9':
+         case 'sound10':
+         case 'sound11':
+         case 'sound12':
+         case 'sound13':
+         case 'sound14':
+         case 'sound15':
+         case 'sound16':
+         case 'sound17':
+         case 'sound18 ':
+         case 'sound19':
+         case 'sound20':
+         case 'sound21':
+         case 'sound22':
+         case 'sound23':
+         case 'sound24':
+         case 'sound25':
+         case 'sound26':
+         case 'sound27':
+         case 'sound28':
+         case 'sound29':
+         case 'sound30':
+         case 'sound31':
+         case 'sound32':
+         case 'sound33':
+         case 'sound34':
+         case 'sound35':
+         case 'sound36':
+         case 'sound37':
+         case 'sound38':
+         case 'sound39':
+         case 'sound40':
+         case 'sound41':
+         case 'sound42':
+         case 'sound43':
+         case 'sound44':
+         case 'sound45':
+         case 'sound46':
+         case 'sound47':
+         case 'sound48':
+         case 'sound49':
+         case 'sound50':
+         case 'sound51':
+         case 'sound52':
+         case 'sound53':
+         case 'sound54':
+         case 'sound55':
+         case 'sound56':
+         case 'sound57':
+         case 'sound58':
+         case 'sound59':
+         case 'sound60':
+         case 'sound61':
+         case 'sound62':
+         case 'sound63':
+         case 'sound64':
+         case 'sound65':
+         case 'sound66':
+         case 'sound67':
+         case 'sound68':
+         case 'sound69':
+         case 'sound70':
+case 'sound71':
+case 'sound72':
+case 'sound73':
+case 'sound74':
+case 'sound75':
+case 'sound76':
+case 'sound77':
+case 'sound78':
+case 'sound79':
+case 'sound80':
+case 'sound81':
+case 'sound82':
+case 'sound83':
+case 'sound84':
+case 'sound85':
+case 'sound86':
+case 'sound87':
+case 'sound88':
+case 'sound89':
+case 'sound90':
+case 'sound91':
+case 'sound92':
+case 'sound93':
+case 'sound94':
+case 'sound95':
+case 'sound96':
+case 'sound97':
+case 'sound98':
+case 'sound99':
+case 'sound100':
+case 'sound101':
+case 'sound102':
+case 'sound103':
+case 'sound104':
+case 'sound105':
+case 'sound106':
+case 'sound107':
+case 'sound108':
+case 'sound109':
+case 'sound110':
+case 'sound111':
+case 'sound112':
+case 'sound113':
+case 'sound114':
+case 'sound115':
+case 'sound116':
+case 'sound117':
+case 'sound118':
+case 'sound119':
+case 'sound120':
+case 'sound121':
+case 'sound122':
+case 'sound123':
+case 'sound124':
+case 'sound125':
+case 'sound126':
+case 'sound127':
+case 'sound128':
+case 'sound129':
+case 'sound130':
+case 'sound131':
+case 'sound132':
+case 'sound133':
+case 'sound134':
+case 'sound135':
+case 'sound136':
+case 'sound137':
+case 'sound138':
+case 'sound139':
+case 'sound140':
+case 'sound141':
+case 'sound142':
+case 'sound143':
+case 'sound144':
+case 'sound145':
+case 'sound146':
+case 'sound147':
+case 'sound148':
+case 'sound149':
+case 'sound150':
+case 'sound151':
+case 'sound152':
+case 'sound153':
+case 'sound154':
+case 'sound155':
+case 'sound156':
+case 'sound157':
+case 'sound158':
+case 'sound159':
+case 'sound160':
+case 'sound161': {
+           
+            let res = await fetch(`https://github.com/DGXeon/Tiktokmusic-API/raw/master/tiktokmusic/${command}.mp3`)
+            if (!res.ok) throw await res.text()
+            let img = await res.buffer()
+            Maria.sendMessage(m.chat, {
+               audio: img,
+               mimetype: 'audio/mpeg',
+               ptt: true
+            }, {
+               quoted:m
+            })
+ 
+         }
+         break
                            
   case 'menu': case 'help': case 'h': 
-  const txt = `╭─「 *Konichiwa* 」
-│⋊ 𝕌𝕤𝕖𝕣: *${pushname}* 
-│⋊ 𝕓𝕠𝕥 ℕ𝕒𝕞𝕖: 𝗠𝗮𝗿𝗶𝗮-𝗠𝗱
-│⋊ ℙ𝕣𝕖𝕗𝕚𝕩:  [ *${prefix}* ]
-│⋊ 𝕆𝕨𝕟𝕖𝕣: ${prefix}owner
-│⋊ 𝕋𝕠𝕥𝕒𝕝𝕔𝕞𝕕: ${mariafeature()}
-│⋊ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: http://gg.gg/Maria-support
-╰────────────┈平和
-Here's the list of my Commands.🔖
-${readmore}
-┌──⊰ _*🧧GENERAL🧧*_
-│⊳ 🌿 ${prefix}hi
-│⊳ 🌿 ${prefix}dev
-│⊳ 🌿 ${prefix}info
-│⊳ 🌿 ${prefix}support
-│⊳ 🌿 ${prefix}rules
-│⊳ 🌿 ${prefix}help
-│⊳ 🌿 ${prefix}runtime
-│⊳ 🌿 ${prefix}ping
-│⊳ 🌿 ${prefix}owner
-│⊳ 🌿 ${prefix}script
-└──────────⊰
-
-┌──⊰ _*🧩OWNER🧩*_
-│⊳ ♠️ ${prefix}session
-│⊳ ♠️ ${prefix}join
-│⊳ ♠️ ${prefix}mode *[self/public]*
-│⊳ ♠️ ${prefix}shutdown
-│⊳ ♠️ ${prefix}restart
-│⊳ ♠️ ${prefix}autoread *[option]*
-│⊳ ♠️ ${prefix}autotyping *[option]*
-│⊳ ♠️ ${prefix}autorecording *[option]*
-│⊳ ♠️ ${prefix}autorecordtyp *[option]*
-│⊳ ♠️ ${prefix}autobio *[option]*
-│⊳ ♠️ ${prefix}autoswview *[option]*
-│⊳ ♠️ ${prefix}setppbot
-│⊳ ♠️ ${prefix}block
-│⊳ ♠️ ${prefix}unblock
-│⊳ ♠️ ${prefix}backup
-│⊳ ♠️ ${prefix}getcase
-│⊳ ♠️ ${prefix}creategc
-└──────────⊰
-
-┌──⊰ _*👮🏻‍♂️GROUP👮🏻‍♂️*_
-│⊳ 🍁 ${prefix}antilink
-│⊳ 🍁 ${prefix}closetime
-│⊳ 🍁 ${prefix}opentime
-│⊳ 🍁 ${prefix}kick
-│⊳ 🍁 ${prefix}promote
-│⊳ 🍁 ${prefix}demote
-│⊳ 🍁 ${prefix}setdesc
-│⊳ 🍁 ${prefix}setppgc
-│⊳ 🍁 ${prefix}tagall
-│⊳ 🍁 ${prefix}hidetag
-│⊳ 🍁 ${prefix}totag
-│⊳ 🍁 ${prefix}group *[option]*
-│⊳ 🍁 ${prefix}editinfo
-│⊳ 🍁 ${prefix}gclink
-│⊳ 🍁 ${prefix}revoke
-│⊳ 🍁 ${prefix}listonline
-└──────────⊰
-
-┌──⊰ _*🎉FUN🎉*_
-│⊳🎟️ ${prefix}truth
-│⊳🎟️ ${prefix}dare
-│⊳🎟️ ${prefix}couple 
-│⊳🎟️ ${prefix}checkdeath
-│⊳🎟️ ${prefix}uglycheck
-│⊳🎟️ ${prefix}lovelycheck
-│⊳🎟️ ${prefix}prettycheck
-│⊳🎟️ ${prefix}hornycheck
-│⊳🎟️ ${prefix}lesbiancheck
-│⊳🎟️ ${prefix}lesbicheck
-│⊳🎟️ ${prefix}lesbiancheck
-│⊳🎟️ ${prefix}cutecheck
-│⊳🎟️ ${prefix}gaycheck
-│⊳🎟️ ${prefix}greatcheck
-│⊳🎟️ ${prefix}awesomecheck 
-└──────────⊰
-┌──⊰ _*📂download📂*_
-│⊳ 📥 ${prefix}play
-│⊳ 📥 ${prefix}ytmp3
-│⊳ 📥 ${prefix}ytmp4
-│⊳ 📥 ${prefix}igimage 
-│⊳ 📥 ${prefix}igvideo 
-│⊳ 📥 ${prefix}gitclone
-│⊳ 📥 ${prefix}pinterest
-│⊳ 📥 ${prefix}apk
-└──────────⊰
-┌──⊰ _*🎐SnapBlend🎐*_
-│⊳🎀 ${prefix}shadow
-│⊳🎀 ${prefix}write
-│⊳🎀 ${prefix}smoke
-│⊳🎀 ${prefix}burnpaper
-│⊳🎀 ${prefix}romantic
-│⊳🎀 ${prefix}writeart
-│⊳🎀 ${prefix}rainboweffect
-│⊳🎀 ${prefix}smokyneon
-│⊳🎀 ${prefix}underwaterocean
-│⊳🎀 ${prefix}coffecup
-│⊳🎀 ${prefix}doublelove
-│⊳🎀 ${prefix}undergrass
-│⊳🎀 ${prefix}love
-│⊳🎀 ${prefix}narutobanner
-│⊳🎀 ${prefix}shinetext
-└──────────⊰
-┌──⊰ _*⛩️OTHERS⛩️*_
-│⊳ 🏮 ${prefix}sticker
-│⊳ 🏮 ${prefix}qc
-│⊳ 🏮 ${prefix}smeme
-│⊳ 🏮 ${prefix}take
-│⊳ 🏮 ${prefix}toimage
-│⊳ 🏮 ${prefix}tovideo
-│⊳ 🏮 ${prefix}toaudio
-│⊳ 🏮 ${prefix}tomp3
-│⊳ 🏮 ${prefix}tovn
-│⊳ 🏮 ${prefix}togif
-│⊳ 🏮 ${prefix}tourl
-│⊳ 🏮 ${prefix}toqr
-│⊳ 🏮 ${prefix}toviewonce
-│⊳ 🏮 ${prefix}fliptext
-│⊳ 🏮 ${prefix}emojimix
-│⊳ 🏮 ${prefix}circlevideo
-│⊳ 🏮 ${prefix}google
-│⊳ 🏮 ${prefix}pinterest
-│⊳ 🏮 ${prefix}dalle
-│⊳ 🏮 ${prefix}gpt
-└──────────⊰
-🍂 To enable NSFW (Admin only!), enter  *${prefix}nsfw* 
-
-🍂 Obtain the full list of NSFW commands by typing  *${prefix}nsfwmenu*`
+  Maria.sendMessage(from, { react: { text: "", key: m.key }}) 
+var Menunya = JSON.parse(fs.readFileSync('./Gallery/nsfw/Language.json'))
+Maria.sendMessage(m.chat, { caption: Menunya: { url: Mariayresult.url } }, { quoted: m })
+break'
 
   if (randomImage) {
-    Maria.sendMessage(from, { image: { url: randomImage }, caption: txt }, { quoted: m });
+    Maria.sendMessage(from, { image: { url: randomImage }, caption: Menunya }, { quoted: m });
   }
+  menuku = fs.readFileSync('./menu.mp3')
+         	Maria.sendMessage(m.chat, {
+               audio: menuku,
+               mimetype: 'audio/mpeg',
+               ptt: true
+            }, {
+               quoted: m
+            })
 
   break; 
+  case 'jodohku': {
+if (!m.isGroup) return reply(mess.group);
+let member = participants.map(u => u.id)
+let me = m.sender
+let jodoh = member[Math.floor(Math.random() * member.length)]
+let jawab = `Jodoh mu adalah
+
+@${me.split('@')[0]}  @${jodoh.split('@')[0]}`
+let ments = [me, jodoh]
+let buttons = [
+{ buttonId: '.jodohku', buttonText: { displayText: 'Jodohku' }, type: 1 }
+]
+await Maria.sendMessage(m.chat, jawab, ownername, m, {mentions: ments})
+}
+break
      
        case 'circlevideo': {
 try {
@@ -1713,7 +1826,48 @@ reply(`Reply to a Video with Caption ${prefix + command}`)
 }
 }
 break
+  //Random Anime
+         case 'cry':
+         case 'kill':
+         case 'hug':
+         case 'pat':
+         case 'lick':
+         case 'kiss':
+         case 'bite':
+         case 'yeet':
+         case 'neko':
+         case 'bully':
+         case 'bonk':
+         case 'wink':
+         case 'poke':
+         case 'nom':
+         case 'slap':
+         case 'smile':
+         case 'wave':
+         case 'awoo':
+         case 'blush':
+         case 'smug':
+         case 'glomp':
+         case 'happy':
+         case 'dance':
+         case 'cringe':
+         case 'highfive':
+         case 'shinobu':
+         case 'megumin':
+         case 'handhold': {
+            reply(lang.wait())
+            axios.get(`https://api.waifu.pics/sfw/${command}`)
+               .then(({
+                  data
+               }) => {
+                  Maria.sendMediaAsSticker(m.chat, data.url, m, {
+                  packname: `${global.stickername}`
+                  })
 
+
+               })
+         }
+         break
 
 case "couple":
         {
@@ -1918,6 +2072,7 @@ break;
 
 
 			    ////
+			case 'remini':
 			    case 'hd': {
 			if (!quoted) return reply(`Where is the picture?`)
 			if (!/image/.test(mime)) return reply(`Send/Reply Photos With Captions ${prefix + command}`)
@@ -2227,8 +2382,8 @@ https://chat.whatsapp.com/${response}
         
   case 'mods': case 'developer': case 'dev': 
         
-            reply(` *━━━〈 🧧Maria Dev🧧 〉━━━*\n
-🔮 *Ayush* +919931122319
+            reply(` *━━━〈 🧧SennaX Dev🧧 〉━━━*\n
+🔮 *Bagus* +62895700121662
 
 🔮 *xeon* +916909137213
 
