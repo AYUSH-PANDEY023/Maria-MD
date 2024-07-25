@@ -51,9 +51,9 @@ global.mess = {
 }
 
 module.exports = {
-ownernumber: global.ownernumber,
-ownername: global.ownername,
-sessionId: process.env.id,
+ownernumber: global.+22897399806,
+ownername: global.leopardas,
+sessionId: process_M_A_R_I_A_QXF1YXJpdW1TdHVkcwo=.,
 AUTO_BLOCK : process.env.PM_BLOCKER,
 STATUS_SAVER : "true",
 ANTI_BOT:"true",
